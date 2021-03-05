@@ -1,0 +1,16 @@
+.header{
+    height: 400px;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("images/landing.jpg") ;
+    
+
+    
+}
+.footer{
+    background-color: #F15A29;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
