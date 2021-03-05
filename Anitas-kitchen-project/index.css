@@ -23,3 +23,29 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
+.one{
+    background-color: whitesmoke;
+    color:grey;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    
+    
+}
+
+.two{
+    background-color:  #F15A29;
+    color:black;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+
+    border: 1px solid white;
+    }
+
+    #breakfast{
+        
+       justify-content: flex-start;
+    }
