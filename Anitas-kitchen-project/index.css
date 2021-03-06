@@ -89,3 +89,15 @@
     justify-content: center;
     float: left;
     }
+.food{
+    height: 400px;
+   
+    border: 2px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/foodsBg.jpg");
+}
+.food,h2{
+    color: white;
+    
+}
