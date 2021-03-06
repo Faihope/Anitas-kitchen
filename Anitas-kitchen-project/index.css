@@ -75,6 +75,10 @@
      position: relative;
      border: 0px;
      padding: 2px;
+     
+    }
+    body{
+        
     }
 
     .breakfast{
@@ -91,13 +95,23 @@
     }
 .food{
     height: 400px;
-   
+   background-color: white;
     border: 2px solid white;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("images/foodsBg.jpg");
 }
-.food,h2{
-    color: white;
+
     
+
+
+#drink,#chicken,#rice,#fast{
+    color: #F15A29;;
+    flex-direction: column-reverse;
+    background-color: white;
+    border: none;
+    padding: 20px;
+    float: left;
+    margin: 10px 0 10px 0;
+    clear: none;
 }
