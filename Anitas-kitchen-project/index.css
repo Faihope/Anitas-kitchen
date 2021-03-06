@@ -72,14 +72,9 @@
     }
     .ff{
      
-     
+     position: relative;
      border: 0px;
-     padding: 20px;
-     column-count: 2;
-     margin-left: 15%;
-     margin-right: 20%;
-     
-    
+     padding: 2px;
      
     }
     body{
@@ -88,7 +83,7 @@
 
     .breakfast{
         display: flex;
-        float: right;
+        float: left;
         
     }
     .firstfood.fastfood2{
@@ -128,14 +123,4 @@
     padding: 5px;
     margin: 2px;
     border: 3px solid black;
-}
-.main{
-    display: flex;
-    flex-direction: row;
-}
-.happycustomers{
-    column-count: 2;
-    text-align: center;
-    
-
 }
