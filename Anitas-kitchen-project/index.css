@@ -163,3 +163,23 @@ display: inline-block;
       height: 250px;
       background-size: cover;
   }
+  .column-split {
+    float: left;
+    width: 50%;
+  }
+  .chips{
+      height: 400px;
+      background-color: red;
+  }
+  .chicken{
+      height: 400px;
+      background-color: blue;
+  }
+  .kuku{
+      height: 400px;
+      background-color: brown;
+  }
+  .waru{
+      height: 400px;
+      background-color: cyan;
+  }
