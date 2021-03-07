@@ -1,7 +1,6 @@
 
 .header{
     height: 800px;
-    padding: 20px;
     margin: auto;
     border: 2px solid white;
     background-repeat: no-repeat;
@@ -111,7 +110,6 @@
 #drink,#chicken,#rice,#fast{
     color: #F15A29;;
     flex-direction: column-reverse;
-    background-color: white;
     border: none;
     padding: 20px;
     float: left;
@@ -134,7 +132,7 @@ display: inline-block;
 
 .column {
     float: left;
-    width: 25%;
+    width: 24.25%;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -151,17 +149,25 @@ display: inline-block;
       background-image: url("images/breakfast.jpg");
       height: 250px;
       background-size: cover;
+      color: white;
+      font-size: x-large;
+      text-align: center;
   }
   .thre{
       background-image: url("images/lunch.jpg");
       height: 250px;
       background-size: cover;
+      color: white;
+      font-size: x-large;
+      
     
   }
   .fou{
       background-image: url("images/dinner.jpg");
       height: 250px;
       background-size: cover;
+      color: white;
+      font-size: x-large;
   }
   .column-split {
     float: left;
