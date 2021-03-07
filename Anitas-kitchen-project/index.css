@@ -77,7 +77,7 @@
      position: relative;
      border: 0px;
      padding-left: 300px;
-     
+     background-color: white;
     }
     body{
         
@@ -108,7 +108,7 @@
 
 
 #drink,#chicken,#rice,#fast{
-    color: #F15A29;;
+    color: #F15A29;
     flex-direction: column-reverse;
     border: none;
     padding: 20px;
@@ -116,14 +116,11 @@
     margin: 10px 0 10px 0;
     clear: none;
 }
-.customer{
+.customers{
     text-align: center;
     font-family: sans-serif;
     font-weight: 700;
     font-size: medium;
-    padding: 5px;
-    margin: 2px;
-    border: 3px solid black;
 }
 .logowhite{
 flex-direction: row-reverse;
@@ -188,4 +185,13 @@ display: inline-block;
   .waru{
       height: 400px;
       
+  }
+  .all{
+float: inline-start;
+  }
+  .customers>h3{
+      color: #F15A29;
+  }
+  .Aboutmenu>h3{
+      color: #F15A29;
   }
