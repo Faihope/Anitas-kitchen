@@ -31,9 +31,12 @@
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+    width: 400px;
+    
     
     
 }
+
 
 .two{
     background-color:  #F15A29;
@@ -41,9 +44,9 @@
     font-size: 25px;
     font-weight: 400;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
-    
+    padding: 20px;
     border: 1px solid white;
+    width: 400px;
     }
 
     .subscribe{
@@ -81,9 +84,9 @@
         
     }
 
-    .breakfast{
-        display: flex;
-        float: left;
+    #breakfast{
+        height: 250px;
+        width: 25%;
         
     }
     .firstfood.fastfood2{
@@ -124,3 +127,39 @@
     margin: 2px;
     border: 3px solid black;
 }
+.logowhite{
+flex-direction: row-reverse;
+display: inline-block;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .on{
+    
+      height: 250px;
+
+  }
+  .tw{
+      background-image: url("images/breakfast.jpg");
+      height: 250px;
+      background-size: cover;
+  }
+  .thre{
+      background-image: url("images/lunch.jpg");
+      height: 250px;
+      background-size: cover;
+    
+  }
+  .fou{
+      background-image: url("images/dinner.jpg");
+      height: 250px;
+      background-size: cover;
+  }
